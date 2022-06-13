@@ -1,0 +1,39 @@
+{
+    "name": "mphpmaster/nova-info-card",
+    "description": "Laravel Nova Resource Information Card.",
+    "type": "project",
+    "homepage": "https://github.com/mPhpMaster/nova-info-card",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mphpmaster\\NovaInfoCard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mPhpMaster",
+            "email": "mphpmaster@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/mPhpMaster/nova-info-card"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mphpmaster\\InfoCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
